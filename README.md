@@ -34,8 +34,8 @@ compile "org.openapitools:rainbow-apache-httpclient:1.0"
 ````
 
 ## FAQs
-1. 通过rainbow在主网部署的合约，为何不能调用setSponsor接口？
-    - setSponsor接口只能用于测试网，主网目前不支持。若需要赞助，请联系项目方
+1. 通过rainbow在主网部署的合约，为何不能直接调用setSponsor接口？
+    - setSponsor接口可以免费用于测试网，若是想用在主网，需要先对账户进行充值，具体的可见[充值教程](https://docs.nftrainbow.xyz/tutorials/guides/kong-zhi-tai-he-yue-dai-fu-she-zhi)
 
 2. 还有其他的API的教程么？
    - 该教程例子只包括了从合约部署到mint再到transfer NFT的流程，后续其他的例子会补上。
